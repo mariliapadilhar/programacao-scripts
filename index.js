@@ -168,4 +168,5 @@ server.delete("/:id", (req, res) => {
   return res.json(empregados);
 });
 
-server.listen(3000);
+
+server.listen(process.env.PORT || 3000);
